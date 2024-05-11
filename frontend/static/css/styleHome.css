@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f5f5; /* Cambia el color de fondo a dorado */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px; /* Espacio superior */
+}
+
+h1 {
+    font-size: 36px; /* Tamaño de la fuente del título */
+    color: #333; /* Color del título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+
+main {
+    text-align: center;
+    margin-top: 50px; /* Espacio entre el encabezado y el contenido */
+}
+
+.container {
+    display: inline-block;
+    background-color: #fff; /* Fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Espacio inferior de la imagen */
+}
+
+.buttons button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px; /* Espacio entre botones */
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

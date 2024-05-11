@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/styleConsult.css" type="text/css" media="all" />
+    <script type="text/javascript" src="../js/appRegister.js"></script>
+</head>
+<body>
+    <header>
+        <h1>User Registration</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="/register_user_db" method="post" accept-charset="utf-8"> 
+                <img src="../images/register_image.gif"/>
+                <div class="form-group">
+                    <label for="id">ID</label> 
+                    <input type="number" id="id" name="id" class="form-control" value="">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label> 
+                    <br/>
+                    <input type="text" id="name" name="name" class="form-control" value="">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <br/>
+                    <input type="text" id="lastname" name="lastname" class="form-control" value="">
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Birthday</label> 
+                    <br/>
+                    <input type="date" id="birthday" name="birthday" class="form-control" value="">
+                </div>
+                <div class="buttons">
+                    <button onClick="register_user()">Register</button> 
+                    <button onClick="home_page()">Home</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
